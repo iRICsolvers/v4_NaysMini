@@ -13,6 +13,22 @@ Pythonコードが全て見れますので、数値計算法やPythonの勉強�
 事例集はこちらを参照ください。
 https://i-ric.org/yasu/NaysMini/index.html
 
+  ## 必須追加モジュール
+  * NaysMiniではnumbaを使用しています。iRICインストーラーからインストールしたMiniconda環境にnumbaを追加してください。
+  ```
+  conda activate iric
+  conda install numba 
+  ```
+  
+  ## minicondaでのproxy設定方法
+  会社内などproxy経由で上記のモジュール追加ができない場合`C:\Users\[ユーザー名]\.condarc`に以下を追記
+  
+  ```
+  proxy_servers:
+  http: http://[プロキシアドレス]:[ポート番号]
+  https: https://[プロキシアドレス]:[ポート番号] 
+  ```
+  
 ## リリースノート
 ### ver.1.0.23052201 update by hamaki
 * iRIC v4対応版をリリース
@@ -31,6 +47,22 @@ It can be applied only flow calculation in Cartesian coordinate system.
 Check here for case studies.
 https://i-ric.org/yasu/NaysMini/index.html
 
+   ## Required additional modules
+   * NaysMini uses numba. Add numba to the Miniconda environment installed from the iRIC installer.
+   ```
+   conda activate iric
+   conda install numba
+   ```
+  
+   ## Proxy setting method with miniconda
+   If the above module cannot be added via a proxy, such as within a company, add the following to `C:\Users\[user name]\.condarc`.
+  
+   ```
+   proxy_servers:
+   http: http://[proxy address]:[port number]
+   https: https://[proxy address]:[port number]
+   ```
+  
 ## Release notes
 ### ver.1.0.23052201 update by hamaki
 * Released as iRIC v4 compatible version
