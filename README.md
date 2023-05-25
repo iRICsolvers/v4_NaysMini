@@ -1,4 +1,5 @@
 # NaysMini
+![anime_10](https://github.com/iRICsolvers/v4_NaysMini/assets/106499621/ed61fa0f-6f4c-4e4b-b5ca-52b5b290419f)
 
 # Japanese 
 
