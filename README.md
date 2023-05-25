@@ -19,7 +19,7 @@ Pythonコードが全て見れますので，数値計算法やPythonの勉強�
 
 <details>
 
-## Overview of GELATO
+## Overview of NaysMini
 NaysMini is a simple version of Nays2dH written in Python code.
 It can be applied only flow calculation in Cartesian coordinate system.
 
