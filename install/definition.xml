@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="NaysMini" caption="NaysMini iRIC4.0" version="1.0.0" 
+    name="NaysMini" caption="NaysMini iRIC4.0" version="1.0.23052201" 
 	copyright="Yasu Shimizu"
     release="2023.5.22" 
 	homepage="https://i-ric.org/"
