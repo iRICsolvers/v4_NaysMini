@@ -31,6 +31,8 @@ https://i-ric.org/yasu/NaysMini/index.html
   ```
   
 ## リリースノート
+### ver.1.0.24012501 update by hoshino
+* 計算中の計算結果の読み込み機能に軽微な修正が行われました。
 ### ver.1.0.23052201 update by hamaki
 * iRIC v4対応版をリリース
   
@@ -65,6 +67,8 @@ https://i-ric.org/yasu/NaysMini/index.html
    ```
   
 ## Release notes
+### ver.1.0.24012501 update by hoshino
+* Minor adjustments to the result loading function during calculations.
 ### ver.1.0.23052201 update by hamaki
 * Released as iRIC v4 compatible version
 
